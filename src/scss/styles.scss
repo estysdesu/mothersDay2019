@@ -82,6 +82,7 @@ body {
       }
 
       .card-exterior-content-back {
+	transform: rotateY(180deg);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
