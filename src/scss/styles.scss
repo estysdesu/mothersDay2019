@@ -69,7 +69,7 @@ body {
 
         .card-exterior-content-front-top,
         .card-exterior-content-front-bottom {
-          opacity: 0.9;
+          opacity: 1.0;
 
           * {
             height: 36px;
@@ -96,7 +96,7 @@ body {
         }
 
         * {
-          opacity: 0.9;
+          opacity: 1.0;
           height: 36px;
         }
       }
@@ -126,7 +126,7 @@ body {
       margin-bottom: 3px;
 
       * {
-        opacity: 0.9;
+        opacity: 1.0;
         height: 36px;
       }
     }
@@ -135,11 +135,11 @@ body {
 
 .card-exterior__open {
   transform: rotateY(180deg);
-  /* box-shadow: 0 2px 4px hsla(270, 10%, 70%, 1); */
+  box-shadow: 0 2px 4px hsla(270, 10%, 70%, 1);
 }
 
 .card_exterior-content__open {
-  /* box-shadow: inset 1px 1px 2px hsla(270, 10%, 50%, 1); */
+  box-shadow: inset 1px 1px 2px hsla(270, 10%, 50%, 1);
 }
 
 .card_exterior-content__hidden {
